@@ -3,7 +3,7 @@
   <DataSet Name="">
     <Query>
       <DataSourceReference>AdventureWKS</DataSourceReference>
-      <CommandText>SELECT        ProductKey, EnglishProductName, Size
+      <CommandText>SELECT        ProductKey, EnglishProductName, StartDate
 FROM            DimProduct</CommandText>
     </Query>
     <Fields>
@@ -15,9 +15,9 @@ FROM            DimProduct</CommandText>
         <DataField>EnglishProductName</DataField>
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
-      <Field Name="Size">
-        <DataField>Size</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
+      <Field Name="StartDate">
+        <DataField>StartDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
       </Field>
     </Fields>
   </DataSet>

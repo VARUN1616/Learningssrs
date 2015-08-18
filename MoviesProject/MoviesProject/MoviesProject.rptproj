@@ -26,6 +26,10 @@
       <Name>EmbeddedReport.rdl</Name>
       <FullPath>EmbeddedReport.rdl</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Tableofproducts.rdl</Name>
+      <FullPath>Tableofproducts.rdl</FullPath>
+    </ProjectItem>
   </Reports>
   <Configurations>
     <Configuration>
